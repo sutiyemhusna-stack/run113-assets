@@ -3,50 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RUN113 - Situs Gacor Terbaik</title>
+    <title>RUN113 - SITUS GACOR</title>
     <style>
-        /* CSS Utama untuk Tampilan dan Animasi */
-        body { background-color: #000; color: #fff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh; overflow: hidden; /* Tambahkan overflow jika ingin efek naga terbang keluar layar */ }
-        .wrapper { width: 100%; max-width: 450px; text-align: center; padding: 25px; box-sizing: border-box; }
+        body { background: #000; color: #fff; font-family: sans-serif; margin: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .container { width: 100%; max-width: 400px; text-align: center; padding: 20px; }
         
-        /* Gambar Utama dengan Efek Glow Berdenyut */
-        .promo-img-container { position: relative; display: inline-block; margin-bottom: 25px; }
-        .promo-img { width: 100%; border: 3px solid #d4af37; border-radius: 20px; box-shadow: 0 0 20px rgba(212, 175, 55, 0.7); animation: glowPulse 3s infinite; position: relative; z-index: 2; }
-        
-        /* Animasi Glow Berdenyut untuk Gambar */
-        @keyframes glowPulse { 0% { box-shadow: 0 0 15px rgba(212, 175, 55, 0.7); } 50% { box-shadow: 0 0 35px rgba(212, 175, 55, 1); } 100% { box-shadow: 0 0 15px rgba(212, 175, 55, 0.7); } }
-        
-        /* Styling Tombol secara Umum */
-        .btn { display: block; width: 100%; margin: 15px auto; padding: 18px; border-radius: 12px; text-decoration: none; font-weight: bold; font-size: 1.4rem; text-align: center; transition: all 0.3s ease-in-out; border: none; cursor: pointer; text-transform: uppercase; box-sizing: border-box; }
-        .btn:hover { transform: translateY(-3px) scale(1.03); box-shadow: 0 5px 15px rgba(255,255,255,0.3); }
-        
-        /* Tombol LOGIN dengan Animasi Detak Jantung */
-        .btn-login { background: linear-gradient(to bottom, #ffe000, #b8860b); color: #000; box-shadow: 0 0 10px rgba(255, 224, 0, 0.5); animation: heartBeat 2s infinite ease-in-out; }
-        .btn-login:hover { box-shadow: 0 0 20px rgba(255, 224, 0, 1); }
-        
-        /* Animasi Detak Jantung untuk Tombol Login */
-        @keyframes heartBeat { 0% { transform: scale(1); } 15% { transform: scale(1.05); } 30% { transform: scale(1); } 100% { transform: scale(1); } }
-        
-        /* Tombol DAFTAR dengan Animasi Denyut Biru Gacor */
-        .btn-daftar { background: linear-gradient(to bottom, #00aaff, #0044cc); color: #fff; box-shadow: 0 0 10px rgba(0, 170, 255, 0.5); animation: bluePulse 1.5s infinite ease-in-out; }
-        .btn-daftar:hover { box-shadow: 0 0 20px rgba(0, 170, 255, 1); }
-        
-        /* Animasi Denyut Biru untuk Tombol Daftar */
-        @keyframes bluePulse { 0% { box-shadow: 0 0 10px rgba(0, 170, 255, 0.5); } 50% { box-shadow: 0 0 20px rgba(0, 170, 255, 1); } 100% { box-shadow: 0 0 10px rgba(0, 170, 255, 0.5); } }
-        
-        /* Spasi di antara Tombol */
-        .spasi-tombol { height: 10px; }
+        /* Animasi Gambar Mengambang */
+        .banner { width: 100%; border: 3px solid #d4af37; border-radius: 15px; box-shadow: 0 0 20px #d4af37; animation: float 3s ease-in-out infinite; }
+        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+
+        /* Tombol Animasi Berdenyut */
+        .btn { display: block; width: 100%; margin: 15px 0; padding: 15px; border-radius: 10px; text-decoration: none; font-weight: bold; font-size: 1.2rem; transition: 0.3s; }
+        .btn-login { background: linear-gradient(#ffe000, #b8860b); color: #000; animation: pulse 2s infinite; }
+        .btn-daftar { background: linear-gradient(#00aaff, #0044cc); color: #fff; }
+        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
     </style>
 </head>
 <body>
-<div class="wrapper">
-    <div class="promo-img-container">
-        <img src="ChatGPT Image 5 Apr 2026, 17.39.38.png" class="promo-img" alt="RUN113 Gacor Banner">
+    <div class="container">
+        <img src="ChatGPT Image 5 Apr 2026, 17.39.38.png" class="banner" alt="Banner Gacor">
+        <a href="https://www.run113.it.com/register?ref=F88M1AL000YH" class="btn btn-login">LOGIN</a>
+        <a href="https://www.run113.it.com/register?ref=F88M1AL000YH" class="btn btn-daftar">DAFTAR</a>
     </div>
-    
-    <a href="https://www.run113.it.com/register?ref=F88M1AL000YH" class="btn btn-login">L O G I N</a>
-    <div class="spasi-tombol"></div>
-    <a href="https://www.run113.it.com/register?ref=F88M1AL000YH" class="btn btn-daftar">D A F T A R</a>
-</div>
 </body>
 </html>
